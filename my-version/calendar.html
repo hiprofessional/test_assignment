@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calendar app</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="my_page">
+    <div class="header">
+      <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#" class='active'>Calendar</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>Calendar</h1>
+      <h2>
+        Choose your month
+      </h2>
+      <div class="months">
+        <div class="month" data-id='0'>Jan</div>
+        <div class="month" data-id='1'>Feb</div>
+        <div class="month" data-id='2'>Mar</div>
+        <div class="month" data-id='3'>Apr</div>
+        <div class="month" data-id='4'>May</div>
+        <div class="month" data-id='5'>Jun</div>
+        <div class="month" data-id='6'>Jul</div>
+        <div class="month" data-id='7'>Aug</div>
+        <div class="month" data-id='8'>Sep</div>
+        <div class="month" data-id='9'>Oct</div>
+        <div class="month" data-id='10'>Nov</div>
+        <div class="month" data-id='11'>Dec</div>
+      </div>
+      <div class="events">
+        <div class="events__list">
+          <!-- <ul>
+            <li>01.01.2020 12:00 drink coffee</li>
+            <li>02.01.2020 12:00 dinner</li>
+          </ul> -->
+        </div>
+        <div class="message">
+          <div class="message__select_moth">
+            Please select month
+          </div>
+          <div class="message__no_events">
+            There are no events for this month
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

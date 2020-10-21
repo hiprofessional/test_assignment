@@ -1,0 +1,88 @@
+body {
+
+background-color: #f0f0f5;
+margin: 20px 20px 20px 5%;
+font-family: Calibri;
+font-size: 1em;
+
+
+}
+
+h1	{
+
+   font-family: Trebuchet MS;
+   font-weight: 900;
+   font-size: 60px;
+
+}
+
+
+div.main  {
+
+	margin: 20px 10px 20px 15px;
+	padding: 1% 1% 1% 1%;
+	border-style: solid;
+}
+
+
+
+div.categories {
+
+/*    display: inline;
+    align-items: right;*/
+	
+	font-family : inherit;
+	text-align: right;
+    font-family : inherit;
+    font-size: 1em;
+    
+    margin: 5px 3px 5px 5px;
+    padding: 5px 3px 5px 5px;
+
+}
+
+div.categories button {
+  
+  border-style: solid;
+  padding: 5px 40px 5px 40px;
+  margin: 5px 1px 5px 1px;
+
+}
+
+
+div.mainform  {
+
+     
+    padding: 1% 1% 400px 1%;
+    margin: 10px 10px 5% 15px;
+	border-style: solid;
+	font-family : inherit;
+    font-size: 12;
+}
+
+div.mainform  button{
+
+     
+    padding: 5px 30px 5px 30px;
+	border-style: solid;
+	font-family : inherit;
+    font-size: 12;
+    font-size: 1em;
+    margin: 5px 1px 5px 1px;
+
+}
+
+
+div.infobox{
+
+     
+/*    //padding: 5px 30px 5px 30px;*/
+	border-style: solid;
+	font-family : inherit;
+    font-size: 12;
+    font-size: 1em;
+    margin: 15px 5px 5px 1px;
+    width: 40%;
+    height: 350px;
+
+}

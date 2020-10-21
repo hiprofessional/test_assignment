@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f0f0f5;
+    font-family: 'Trebuchet MS';
+}
+h1 {
+    padding-bottom: 1em;
+}
+h2 {
+    padding-bottom: 0.5em;
+}
+.my_page {
+    margin: 40px 80px;
+    min-width: 400px;
+}
+.navigation {
+    text-align: right;
+}
+.navigation a {
+    padding: 0 10px;
+    text-decoration: none;
+}
+.navigation .active {
+    color: black;
+}
+
+.months {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.month {
+    color: grey;
+    cursor: pointer;
+}
+.month + .month {
+    margin-left: 10px;
+}
+.month.active, .month:hover {
+    color: royalblue;
+}
+
+.events {
+    margin: 20px 0;
+}
+ul {
+    margin-left: 20px;
+}
+.message {
+    font-style: italic;
+    text-align: center;
+    margin: 40px 0;
+}
+.message__select_moth, .message__no_events {
+    display: none;
+}
